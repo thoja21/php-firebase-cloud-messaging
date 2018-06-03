@@ -1,6 +1,8 @@
 <?php
 namespace sngrl\PhpFirebaseCloudMessaging\Recipient;
 
+include_once('Recipient.php');
+
 class Device extends Recipient
 {
     private $token;

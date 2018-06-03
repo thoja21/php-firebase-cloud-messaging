@@ -1,6 +1,8 @@
 <?php
 namespace sngrl\PhpFirebaseCloudMessaging;
 
+include_once('ClientInterface.php');
+
 use GuzzleHttp;
 
 /**
